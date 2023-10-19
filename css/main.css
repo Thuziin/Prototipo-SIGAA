@@ -1,27 +1,33 @@
 body {
-  background: #f4f4f4;
+  background: rgba(244, 244, 244, 0.1450980392);
   margin: 0;
 }
 
-.imagem {
+.container {
+  margin: 0 auto;
+  border-radius: 15px;
+  width: 75vw;
+  padding: 16px 24px;
+  background-color: rgb(249, 249, 249);
+}
+.container .imagem {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
 }
-.imagem .logo-cefet {
+.container .imagem .logo-cefet {
   margin: auto;
   padding-top: 30px;
   padding-bottom: 3px;
   width: 15vw;
 }
-
-.pages {
+.container .pages {
   display: flex;
   flex-direction: column;
 }
-.pages .btn {
+.container .pages .btn {
   padding: 20px;
   margin: 15px auto;
   border-radius: 15px;
@@ -30,7 +36,16 @@ body {
   color: black;
   background-color: #728AFB;
 }
-.pages .btn:hover {
-  background: rgba(202, 17, 17, 0.86);
+.container .pages .btn:hover {
+  background: rgba(8, 2, 69, 0.86);
   border: 1.5px solid white;
+  color: white;
+}
+.container .first-acess {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px;
+  font-size: 18px;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
