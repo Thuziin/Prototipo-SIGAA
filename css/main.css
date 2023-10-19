@@ -1,5 +1,5 @@
 body {
-  background: rgba(244, 244, 244, 0.1450980392);
+  background: rgba(244, 244, 244, 0.768627451);
   margin: 0;
 }
 
@@ -8,7 +8,7 @@ body {
   border-radius: 15px;
   width: 75vw;
   padding: 16px 24px;
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(236, 233, 233);
 }
 .container .imagem {
   display: flex;
@@ -48,4 +48,7 @@ body {
   margin: 0 2px;
   font-size: 18px;
   text-decoration: none;
+}
+.container .login {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
