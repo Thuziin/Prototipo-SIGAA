@@ -16,17 +16,19 @@
         </div>
 
         <div class="pages">
-            <button class='btn' type="button">SIGAA</button>
-            <button class='btn' type="button">SIPAC</button>
-            <button class='btn' type="button">SIGRH</button>
-            <button class='btn' type="button">SIGAdmin</button>
+            <button class='btn' onclick="mostrarModal()">SIGAA</button>
+            <button class='btn' onclick="mostrarModal()">SIPAC</button>
+            <button class='btn' onclick="mostrarModal()">SIGRH</button>
+            <button class='btn' onclick="mostrarModal()">SIGAdmin</button>
         </div>
 
         <div>
-            <a class="first-acess" href="#">Primeiro acesso</a>
+            <a class="link" href="#">Primeiro acesso</a>
         </div>
 
-        <div class="login">
+        <dialog class="login">
+            <img src="./assets/fechar.svg" alt="Fechar o formulário" onclick='closeForm()' 
+                class="close-form">
             <form action="">
                 <label for="cpf">CPF</label>
                 <input type="text" name="cpf" id="cpf">
@@ -35,8 +37,11 @@
                 <input type="password" name="senha" id="senha">
                 
                 <input type="submit" class='submit-login'>
+                <a class='link' href="#">Esqueci minha senha</a>
             </form>
-        </div>
+        </dialog>
     </div>
+
+    <script src="./src/script.js"></script>
 </body>
 </html>
