@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
 body {
     background: #f4f4f4c4;
-    margin: 0;
 }
 
 
 .container {
-    width: 75vw;
-    height: 100vh;
+    width: 60vw;
     background: rgb(236, 233, 233);
     border-radius: 15px;
     margin: auto;
@@ -29,7 +29,7 @@ body {
             margin: auto;
             padding-top: 30px;
             padding-bottom: 3px;
-            width: 20vw;
+            width: 18vw;
         }
     }
     
@@ -38,12 +38,14 @@ body {
         flex-direction: column;
     
         .btn {
+            font-family: 'Exo 2', sans-serif;
+
             padding: 20px;
             margin: 15px auto;
             border-radius: 15px;
-            width: 25vw;
+            width: 30vw;
     
-            font-size: 20px;
+            font-size: 25px;
     
             color: black;
             background-color: #728AFB;
@@ -62,7 +64,8 @@ body {
         align-items: center;
         margin: 0 2px;
 
-        font-size: inherit;
+        font-family: 'Exo 2', sans-serif;
+
         text-decoration: none;
         color: #003395;
         font-weight: bold;
@@ -74,8 +77,84 @@ body {
 
 }
 
-.close-form {
-    width: 40px;
-    float: right;
-    cursor: pointer;
+.login {
+    width: 40vw;
+    top: 0;
+    left: 0;
+
+    border: 2px solid black;
+    border-radius: 15px;
+    
+    text-align: center;    
+
+    .logo-form {
+        width: 5vw;
+        border-radius: 5em;
+        display: inline-block;
+        margin-left: 30px;
+    
+    }
+
+      
+    .close-form {
+        width: 3vw;
+        float: right;
+        cursor: pointer;
+    }
+    
+    #cpf {
+        display: block;
+
+        background-image: url(../assets/do-utilizador.png);
+        background-repeat: no-repeat;
+        background-position: .3em;
+        margin: 20px auto 20px auto;
+        background-size: 1.4em;
+        padding: .5em;
+    
+        border-radius: 2em;
+    
+        font-family: 'Exo 2', sans-serif;
+
+        width: 40%;
+
+    }
+    
+    #senha {
+        display: block;
+
+        background-image: url(../assets/locker.svg);
+        background-repeat: no-repeat;
+        background-position: .3em;
+        background-size: 1.4em;
+        margin: 20px auto 20px auto;
+        padding: .5em;
+    
+        border-radius: 2em;
+
+        font-family: 'Exo 2', sans-serif;
+
+        width: 40%;
+
+    }
+
+    .submit-login {
+        display: block;
+        margin: 20px auto 20px auto;
+        padding: .5em;
+        width: 10vw;
+
+        background-color: #41a836;
+
+        border-radius: 2em;
+
+        font-family: 'Exo 2', sans-serif;
+        width: 20%;
+
+    }
+}
+
+
+dialog::backdrop {
+    background-color: rgba(21, 20, 33, 0.86);
 }

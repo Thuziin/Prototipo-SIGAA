@@ -16,10 +16,12 @@
         </div>
 
         <div class="pages">
+
             <button class='btn' onclick="mostrarModal()">SIGAA</button>
             <button class='btn' onclick="mostrarModal()">SIPAC</button>
             <button class='btn' onclick="mostrarModal()">SIGRH</button>
             <button class='btn' onclick="mostrarModal()">SIGAdmin</button>
+
         </div>
 
         <div>
@@ -27,18 +29,23 @@
         </div>
 
         <dialog class="login">
+
+            <img src="./assets/cefet-simbol.png" alt="Logo do Cefet" class="logo-form">
+
             <img src="./assets/fechar.svg" alt="Fechar o formulário" onclick='closeForm()' 
                 class="close-form">
-            <form action="">
-                <label for="cpf">CPF</label>
-                <input type="text" name="cpf" id="cpf">
 
-                <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha">
+            <form action="">
+
+                <input type="text" name="cpf" id="cpf" placeholder="      CPF">
+
+                <input type="password" name="senha" id="senha" placeholder="      Senha">
                 
-                <input type="submit" class='submit-login'>
+                <input type="submit" class='submit-login'value='Entrar'>
                 <a class='link' href="#">Esqueci minha senha</a>
+
             </form>
+
         </dialog>
     </div>
 
