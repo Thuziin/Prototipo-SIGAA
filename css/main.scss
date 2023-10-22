@@ -45,7 +45,7 @@ body {
             border-radius: 15px;
             width: 30vw;
     
-            font-size: 25px;
+            font-size: 100%;
     
             color: black;
             background-color: #728AFB;
@@ -105,9 +105,7 @@ body {
     #cpf {
         display: block;
 
-        background-image: url(../assets/do-utilizador.png);
-        background-repeat: no-repeat;
-        background-position: .3em;
+        background: url(../assets/do-utilizador.png) no-repeat .3em/1.4em;
         margin: 20px auto 20px auto;
         background-size: 1.4em;
         padding: .5em;
@@ -123,10 +121,7 @@ body {
     #senha {
         display: block;
 
-        background-image: url(../assets/locker.svg);
-        background-repeat: no-repeat;
-        background-position: .3em;
-        background-size: 1.4em;
+        background: url(../assets/locker.svg) no-repeat .3em/1.4em;
         margin: 20px auto 20px auto;
         padding: .5em;
     
@@ -149,6 +144,7 @@ body {
         border-radius: 2em;
 
         font-family: 'Exo 2', sans-serif;
+        font-size: 100%;
         width: 20%;
 
     }
